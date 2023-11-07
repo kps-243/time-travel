@@ -1,0 +1,135 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Amatic SC", cursive;
+}
+a {
+  color: white;
+}
+.container {
+  padding: 0 5rem;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-10 {
+  gap: 2rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-5 {
+  gap: 2rem;
+}
+.border {
+  border: 1px darkorange solid;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.bg-url {
+  background-image: url(img/pyramides.jpeg);
+}
+.object-cover {
+  object-fit: cover;
+}
+.bg-cover {
+  background-size: cover;
+}
+.object-contain {
+  object-fit: cover;
+}
+.bg-no-reapeat {
+  background-repeat: no-repeat;
+}
+.bg-center {
+  background-position: center;
+}
+.scale-150 {
+  transform: scale(1.5);
+}
+.w-full {
+  width: 100%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-25 {
+  width: 25%;
+}
+.w-60 {
+  width: 60%;
+}
+.h-full {
+  height: 100%;
+}
+.h-300 {
+  height: 500px;
+}
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.py-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.text-white {
+  color: white;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: normal;
+}
+.text-5xl {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.text-xl {
+  font-size: 4rem;
+  line-height: 1rem;
+}
+.img {
+  height: 300px;
+}
+.py-5 {
+  padding-top: 1.25rem; /* 20px */
+  padding-bottom: 1.25rem; /* 20px */
+}
